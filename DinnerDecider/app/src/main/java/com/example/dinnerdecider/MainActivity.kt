@@ -7,8 +7,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-
-    var Foodlist = arrayListOf<String>("Chinese", "Pizza","Hamburger","Italian", "American")
+//Changes Done Added one line
+    var Foodlist = arrayListOf<String>("Chinese", "Pizza","Hamburger","Italian", "American1")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
